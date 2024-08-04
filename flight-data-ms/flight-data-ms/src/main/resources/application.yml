@@ -1,0 +1,19 @@
+spring:
+  application:
+   name: flight-data-ms
+  h2:
+    console:
+     enabled: true
+  datasource:
+    url: jdbc:h2:mem:flightdb
+    username: sa
+    password: sa
+  jpa:
+    show-sql: false
+server:
+  port: 8081
+
+
+zipkin:
+  tracing:
+    endpoint: http://localhost:9411
