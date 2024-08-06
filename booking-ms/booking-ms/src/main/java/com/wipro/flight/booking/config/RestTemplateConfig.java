@@ -1,4 +1,4 @@
-package com.wipro.flight.booking;
+package com.wipro.flight.booking.config;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
